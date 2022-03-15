@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './Components/Button'
 import HeroSection from './Components/HeroSection'
+import InstaSection from './Components/InstaSection'
 import Navbar from './Components/Navbar'
 import ShopSection from './Components/ShopSection'
 import TextSection from './Components/TextSection'
@@ -29,7 +30,8 @@ function Home() {
             </div>
         </div> */}
 
-
+        <InstaSection />
+        <TextSection2/>
       </div>
       {/* <div className={'bg-stone-50 h-screen w-screen mt-0'}>
         <div className={'bg-stone-100 h-3/6'}>
