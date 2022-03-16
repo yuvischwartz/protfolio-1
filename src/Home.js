@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from './Components/Button'
+import Footer from './Components/Footer'
 import HeroSection from './Components/HeroSection'
 import InstaSection from './Components/InstaSection'
 import Navbar from './Components/Navbar'
@@ -16,29 +17,19 @@ function Home() {
     <div className={'h-full bg-stone-50 m-0'}>
         <HeroSection />
         <WhiteTextSection text={'Better products for a sustainable, non-toxic home'} buttonText={'SHOP ALL'} costumeClass={'bg-stone-50'}/>
-        <ShopSection/>
+        <ShopSection imageName1={'image-12'} imageName2={'image-14'} imageName3={'image-15'} imageName4={'image-13'}/>
         <TextSection/>
         <WhiteTextSection text={'We curate beautiful products from small-batch artisans,'} 
           text2={'local farmers and creatives to bring you ethical products you can trust'}buttonText={'OUR STORY'} costumeClass={'bg-white mt-60'}/>
-        <TextSection2/>
-        {/* <div className={'bg-stone-200 h-5/6 flex flex-row'}>
-            <div className={' w-1/2'}>
-              1
-            </div>
-            <div className={'bg-white w-1/2'}>
-              2
-            </div>
-        </div> */}
-
-        <InstaSection />
-        <TextSection2/>
+        <TextSection2 />
+        <InstaSection
+          titleText={'Follow along @cultivatemarkets'}
+          imageName1={'image-11'}
+          imageName2={'image-13'}
+          imageName3={'image-8h'}
+          imageName4={'image-10h'}/>
+        <Footer/>
       </div>
-      {/* <div className={'bg-stone-50 h-screen w-screen mt-0'}>
-        <div className={'bg-stone-100 h-3/6'}>
-        <h1 className={'logo2 text-2xl text-center'}>Better products for a sustainable, non-toxic home</h1>
-        <div className={'text-center m-5'}><Button buttonText={'SHOP ALL'} /></div>
-        </div>
-      </div> */}
       </>
   )
 }

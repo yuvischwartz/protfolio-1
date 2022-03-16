@@ -7,17 +7,20 @@ import Topbar from './Components/Topbar';
 import Home from './Home';
 
 function App() {
-  return (
+  return (<>
     <div className="App relative bg-stone-50 h-screen">
       <Topbar/ >
       <Navbar />
       {/* <Button buttonText={'SHOP ALL'} buttonSize={'text-sm'}/> */}
-      
+      {/* <div className={'solidb'}>
+
+      </div> */}
       <Routes>
         <Route path="/" element={<Home/>} />
       </Routes>
       
     </div>
+    </>
   );
 }
 

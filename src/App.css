@@ -12,3 +12,6 @@
 *{
   font-family: 'Open Sans', sans-serif;
 }
+.solidb {
+  border-top: 3px solid #bbb;
+}
