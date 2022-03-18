@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Button from './Components/Button'
 import Footer from './Components/Footer'
 import HeroSection from './Components/HeroSection'
@@ -13,6 +13,7 @@ import WhiteTextSection from './Components/WhiteTextSection'
 // import img1 from '../public/Images/image-1.jpg';
 
 function Home() {
+  useEffect(()=>{window.scrollTo(0, 0);},[])
   return (
   <>
     <div className={'h-full bg-stone-50 m-0'}>

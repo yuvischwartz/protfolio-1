@@ -31,7 +31,7 @@ function Footer() {
               <h2 className={'logo text-xl'}>Market Natural</h2>
               <h3 className={'pt-5 logo text-lg'}>join us and receive 10% off your next order</h3> 
               {/* <p className={'text-sm'}>Our policy learn more about it</p> */}
-              <Button buttonText={'Learn More'}/>
+              <span className={'m-5'}><Button buttonText={'Learn More'}/></span>
         </div>
         <div className={'m-0 h-72'}>
             <img  

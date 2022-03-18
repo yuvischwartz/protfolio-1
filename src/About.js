@@ -3,9 +3,11 @@ import Footer from './Components/Footer'
 import TextSection from './Components/TextSection'
 import TextSection2 from './Components/TextSection2'
 import WhiteTextSection from './Components/WhiteTextSection'
+import { useEffect } from 'react'
 // import PageTitle from './Components/PageTitle'
 
 function About() {
+  useEffect(()=>{window.scrollTo(0, 0);},[])
   return (
     <>
       {/* <PageTitle title={'About Us'}/> */}

@@ -3,8 +3,10 @@ import Footer from './Components/Footer'
 import PageTitle from './Components/PageTitle'
 import TextSection2 from './Components/TextSection2'
 import WhiteTextSection from './Components/WhiteTextSection'
+import { useEffect } from 'react'
 
 function Visit() {
+  useEffect(()=>{window.scrollTo(0, 0);},[])
   return (
     <div>
       <PageTitle title={'Visit Us'} />
