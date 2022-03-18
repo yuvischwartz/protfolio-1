@@ -1,10 +1,10 @@
 .nav-item:hover{
-    color:black;
-    border: gray;
+    color:#fcd34d;
+    border: #fcd34d;
     border-bottom-style: solid;
-    border-width: 3px;
+    border-width: 1px;
     animation: spin 1s linear infinite;
 }
-.menu:hover{
+/* .menu:hover{
     color:gray;
-}
+} */

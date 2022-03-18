@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TextSection() {
+function TextSection(props) {
   return (
       <div className={'bg-stone-200 h-3/6 sm:h-4/6 flex flex-col sm:flex-row my-20'}>
           
@@ -13,10 +13,11 @@ function TextSection() {
         </div>
           
         <div className={'justify-center text-center mt-20 w-full sm:w-1/2 sm:ml-20 sm:mt-40'}>
-              <h1 className={'logo2 text-2xl font-semibold my-5'}>Our Refill Bar</h1>
-              <p className={'text-sm'}>Our refill bar offers a variety of organic, natural products. Simply bring in</p>
-              <p className={'text-sm'}>your empty, clean container and refill from our selection. By shopping in bulk </p>
-              <p className={'text-sm'}>you save money by reducing waste and support local small businesses.</p>
+        <h1 className={'logo2 text-2xl font-semibold my-5'}>{props.title}</h1>
+        <p className={'text-sm'}>{props.p1}</p>
+        <p className={'text-sm'}>{props.p2}</p>
+        <p className={'text-sm'}>{props.p3}</p>
+        <p className={'text-sm'}>{props.p4}</p>
         </div>
           
     </div>

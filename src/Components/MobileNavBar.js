@@ -28,7 +28,7 @@ function MobileNavBar() {
               </div>       
           </div>
 
-          {click && <DropdownMenu/>}
+      {click && <DropdownMenu handleClick={handleClick}/>}
     </>
   )
 }
